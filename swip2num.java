@@ -9,6 +9,10 @@ public class JavaSwapExample {
   System.out.println("Value of y is :" + y);
 
   //swap the value
+  swap(x, y);
+ }
+
+ private static void swap(int x, int y) {
   int temp = x;
   x = y;
   y = temp;
